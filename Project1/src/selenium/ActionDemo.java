@@ -18,9 +18,6 @@ public class ActionDemo {
 		
 		Actions act=new Actions(driver);
 		act.sendKeys(Keys.ENTER).perform();
-		
-		
-		
 		driver.close();
 		
 	}
